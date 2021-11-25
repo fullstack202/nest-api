@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": "user",
+    "password": "password",
+    "host": "localhost",
+    "database": "db_cobuilders_v2",
+    "port": "5432",
+    "schema": "my_schema"
+  },
+  "test": {
+    "driver": "sqlite3",
+    "filename": ":memory:"
+  },
+  "prod": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "root"
+  },
+  "pg": {
+    "driver": "pg",
+    "user": "postgress",
+    "password": "",
+    "host": "localhost",
+    "database": "test_db",
+    "port": "5432",
+    "ssl": "true",
+    "schema": "my_schema"
+  },
+  "mongo": {
+    "driver": "mongodb",
+    "database": "my_db",
+    "host": "localhost"
+  },
+  "other": "postgres://uname:pw@server.com/dbname"
+}
